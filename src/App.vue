@@ -24,6 +24,14 @@ export default {
     Authorise,
     NowPlaying
   },
+  
+  metaInfo: {
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      { name: 'mobile-web-app-capable', content: 'yes' }
+    ]
+  },
 
   props: {},
 
